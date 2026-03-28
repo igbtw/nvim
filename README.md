@@ -29,25 +29,24 @@ Plugins will install automatically on first launch via lazy.nvim.
 ## Structure
 
 ```
-~/.config/nvim/
-├── init.lua
-├── lazyvim.json
-├── lazy-lock.json
-├── stylua.toml
-└── lua/
-    ├── config/
-    │   ├── autocmds.lua
-    │   ├── keymaps.lua
-    │   ├── lazy.lua
-    │   └── options.lua
-    └── plugins/
-        ├── bufferline.lua
-        ├── colorscheme.lua
-        ├── gitsigns.lua
-        ├── indent-blankline.lua
-        ├── lualine.lua
-        ├── noice.lua
-        └── trouble.lua
+init.lua
+lazyvim.json
+lazy-lock.json
+stylua.toml
+lua/
+  ├── config/
+  │   ├── autocmds.lua
+  │   ├── keymaps.lua
+  │   ├── lazy.lua
+  │   └── options.lua
+  └── plugins/
+      ├── bufferline.lua
+      ├── colorscheme.lua
+      ├── gitsigns.lua
+      ├── indent-blankline.lua
+      ├── lualine.lua
+      ├── noice.lua
+      └── trouble.lua
 ```
 
 ## Plugins
