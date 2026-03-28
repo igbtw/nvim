@@ -2,7 +2,6 @@ return {
   "nvim-lualine/lualine.nvim",
   event = "VeryLazy",
   opts = function()
-    -- paleta manual para as setas ficarem visíveis
     local colors = {
       bg0 = "#161616",
       bg1 = "#262626",
