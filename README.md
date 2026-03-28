@@ -2,7 +2,7 @@
 
 My personal Neovim configuration built on top of [LazyVim](https://lazyvim.org).
 
-[preview](./assets/overview.png)
+![preview](./assets/preview.png)
 
 ---
 
