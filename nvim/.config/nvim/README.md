@@ -1,6 +1,6 @@
 # nvim
 
-Personal Neovim configuration built on top of [LazyVim](https://lazyvim.org).
+My personal Neovim configuration built on top of [LazyVim](https://lazyvim.org).
 
 <!-- ![preview](./assets/preview.png) -->
 
@@ -10,8 +10,8 @@ Personal Neovim configuration built on top of [LazyVim](https://lazyvim.org).
 
 - Neovim >= 0.9.0
 - Git
-- [JetBrainsMono Nerd Font](https://www.nerdfonts.com/) (or any Nerd Font)
-- A true-color terminal — I use [Kitty](https://sw.kovidgoyal.net/kitty/)
+- [JetBrainsMono Nerd Font](https://www.nerdfonts.com/) (or any Nerd Font that you preffer)
+- A true-color terminal I use [Kitty](https://sw.kovidgoyal.net/kitty/) btw
 - `ripgrep` and `fd` for file search
 
 ## Installation
@@ -113,7 +113,7 @@ Leader key: `Space`
 
 The lualine statusline uses a hand-crafted [IBM Carbon](https://carbondesignsystem.com/) color palette with powerline separators. Each mode has its own accent color — blue for normal, green for insert, purple for visual, pink for replace, and yellow for command. It also displays the active LSP clients, diagnostics, filetype, encoding, cursor position, and a clock.
 
-## Environment
+## Environment that i use
 
 | | |
 |-|-|
@@ -121,5 +121,3 @@ The lualine statusline uses a hand-crafted [IBM Carbon](https://carbondesignsyst
 | WM | Hyprland |
 | Terminal | Kitty |
 | Font | JetBrainsMono Nerd Font |
-| Colorscheme | Oxocarbon |
-| Code formatter | StyLua (`indent: 2 spaces`, `column width: 120`) |
